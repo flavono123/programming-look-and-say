@@ -1,3 +1,14 @@
+# Java classes
+*.class
+
+# Haskell interface and object files
+*.hi
+*.o
+
+# Binaries
+*
+!*.*
+
 # silent
 *.pdf
 *.epub
