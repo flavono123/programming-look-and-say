@@ -9,6 +9,11 @@
 *
 !*.*
 
+# Allow source files
+*.java
+*.hs
+*.rb
+
 # silent
 *.pdf
 *.epub
