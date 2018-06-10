@@ -1,5 +1,10 @@
-s = '1'
-(1..10).each do |line|
+def ant(n)
+  s = '1'
+  (1..n).each {s = next_line(s)}
+  s
+end
+
+def next_line(s)
   length = 1
   head = s[0]
   result = ' '
@@ -15,6 +20,7 @@ s = '1'
   end
   result << length.to_s
   result << head
-  s = result
 end
-puts s
+
+puts ant(10)
+
