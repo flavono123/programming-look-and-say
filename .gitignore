@@ -1,19 +1,14 @@
+# Binaries
+*
+!*.*
+!*/
+
 # Java classes
 *.class
 
 # Haskell interface and object files
 *.hi
 *.o
-
-# Binaries
-*
-!*.*
-
-# Allow source files
-*.java
-*.hs
-*.rb
-*.js
 
 # silent
 *.pdf
